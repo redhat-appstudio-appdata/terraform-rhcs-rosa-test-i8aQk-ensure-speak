@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: terraform-rhcs-rosa
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-rhcs-rosa-test/terraform-rhcs-rosa@sha256:bd1692edf3215b01adac42f39373ac7ca37340a2cad6a8f80c49e073c3ee7927
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-rhcs-rosa-test/terraform-rhcs-rosa@sha256:952f3269316f11afafa2db779c60c9d68909ead40234b7e7d976fb7b57ce9248
         imagePullPolicy: Always
         name: container-image
         ports:
