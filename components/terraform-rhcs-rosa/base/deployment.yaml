@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: terraform-rhcs-rosa-test
   name: terraform-rhcs-rosa
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
